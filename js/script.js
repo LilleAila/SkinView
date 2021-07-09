@@ -37,9 +37,9 @@ function checkScreenSize() {
     viewersPerRow = 0;
     $("#smallDevice").addClass("deviceTooSmall");
     if (window.innerWidth < window.innerHeight) {
-      $("#smallDeviceText").text("Snu skjermen");
+      $("#smallDeviceText").text("Rotate the screen");
     } else {
-      $("#smallDeviceText").text("Skjermen er for liten");
+      $("#smallDeviceText").text("The screen is too small");
     }
   }
 
